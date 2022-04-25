@@ -39,7 +39,7 @@ function Table({
 				{Math.floor(+customers[+idx].time / 9)} days and {''}
 				{+customers[+idx].time % 9} hours
 				<br />
-				totl price:{+customers[+idx].price}$
+				total price:{+customers[+idx].price}$
 			</p>
 			<button
 				className="Table-btn-x"
